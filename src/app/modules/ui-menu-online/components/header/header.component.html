@@ -1,0 +1,14 @@
+<div class="page-header position-relative" style="background-image: url('assets/img/banner.jpeg');
+background-size: cover;">
+  <span class="mask bg-gradient-dark opacity-4"></span>
+  <a href="javascript:void;" class="nav-link text-white p-0" id="iconNavbarSidenav">
+    <div class="sidenav-toggler-inner">
+      <i class="sidenav-toggler-line bg-white"></i>
+      <i class="sidenav-toggler-line bg-white"></i>
+      <i class="sidenav-toggler-line bg-white"></i>
+    </div>
+  </a>
+  <div class="container-fluid pb-lg-9 pb-7 pt-7 position-relative z-index-0">
+    <app-category-tabs [showTabs]="!isTablet() && !isMobile()"></app-category-tabs>
+  </div>
+</div>
